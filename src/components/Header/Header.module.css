@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    gap: 15px;
+    padding: 15px 30px;
+    margin: 0;
+    list-style: none;
+    border-bottom: 2px solid #42b983;
+    background-color: #f5f5f5;
+  }
+  
+  .header li {
+    margin: 0;
+  }
+  
+  .header .active {
+    color: #007bff;
+  }
+  
+  .header a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s;
+    text-decoration: none;
+  }
+  
+  .header a:hover {
+    color: #42b983;
+    text-decoration: underline;
+  }
+  
